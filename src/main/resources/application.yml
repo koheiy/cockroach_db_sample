@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:26257/parrot?sslmode=disable
+    driver-class-name:  org.postgresql.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    username: maxroach
+    password:
